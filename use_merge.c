@@ -5,9 +5,9 @@ int *merge(const int array_first[], const int size_first, const int array_second
 	int *array_third = (int *)malloc(size_third * sizeof(int));
 
 	const int *first1 = array_first;
-	const int * last1 = array_first + size_first;
-	const int * first2 = array_second;
-	const int * last2 = array_second + size_second;
+	const int *last1 = array_first + size_first;
+	const int *first2 = array_second;
+	const int *last2 = array_second + size_second;
 	size_t count_first = 0;
 	size_t count_second = 0;
 	size_t count_third = 0;
